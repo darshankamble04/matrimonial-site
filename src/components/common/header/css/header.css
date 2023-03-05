@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Passion+One:wght@700&family=Poppins:ital,wght@0,600;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap");
+
+.navbar {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.171) !important;
+  height: 71px !important;
+  padding: 0 2rem;
+  align-items: center;
+  width: 100vw;
+  font-family: Graphik, sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.navbar .brandName {
+  font-size: 1.44rem;
+  font-weight: 400;
+}
+.containerfluid {
+  width: 100vw;
+  justify-content: space-between;
+  max-width: 1375px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.leftNav .navItem {
+  font-size: 1.2rem;
+}
+

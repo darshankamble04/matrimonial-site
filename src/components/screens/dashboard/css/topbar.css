@@ -1,0 +1,14 @@
+.topbar{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(161, 161, 161);
+    align-items: center;
+}
+.topbar .greetingUser{
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-family: "Outfit", sans-serif;
+    text-transform: capitalize;
+    padding-left: 3rem;
+}

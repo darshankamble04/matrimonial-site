@@ -1,0 +1,7 @@
+.searchBar{
+    padding: 0.65rem 1.5rem;
+    /* border-radius: 1rem; */
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    font-family: "Outfit", sans-serif;
+}

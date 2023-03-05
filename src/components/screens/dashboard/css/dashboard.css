@@ -1,0 +1,7 @@
+.mainD{
+    width: calc(100vw - 300px);
+    margin-left: 300px;
+}
+.dataCardColl{
+    margin: 2rem;
+}

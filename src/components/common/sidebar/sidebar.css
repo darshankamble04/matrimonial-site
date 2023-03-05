@@ -1,0 +1,46 @@
+.sidebar {
+  width: 300px;
+  background-color: rgb(161, 161, 161);
+  height: 100vh;
+  padding: 0 2rem;
+  padding-top: 86px;
+  position: fixed;
+}
+.sidebar::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.495);
+  outline: 1px solid slategrey;
+}
+.sidebar .tabs {
+}
+.sidebar .tabs .tab >a{
+  width: 100%;
+  height: 100%;
+}
+.sidebar .tabs .tab {
+  text-decoration: none;
+  color: unset;
+  padding: 0.65rem 1.5rem;
+  /* border-radius: 1rem; */
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.sidebar .tabs .tab:hover {
+  background-color: #26262818;
+}
+.sidebar .tabs .active {
+  /* border: 0.15rem solid #262628; */
+  color: rgb(184, 184, 184) !important;
+  background-color: #262628fd !important;
+}

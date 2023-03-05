@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 10px;
+  min-height: 500px;
+}
+
+.img-left {
+  width: 45%;
+  background: url("https://images.unsplash.com/photo-1663640171543-9eef40a4b320?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjU4NzAyNjE&ixlib=rb-1.2.1&q=80")
+    center;
+  background-size: cover;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  border-radius: 100px;
+  border: none;
+  background: #e3f2fd;
+}
+input[type="button"] {
+  border-radius: 100px;
+}

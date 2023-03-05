@@ -1,0 +1,29 @@
+.dataCard{
+    height: 371px;
+    width: 530px;
+    width: 50%;
+    background-color: rgba(161, 161, 161, 0.062);
+border-radius:1rem;
+/* border: 0.05rem solid rgb(68, 68, 68); */
+box-shadow: 8px 9px 20px hsl(0deg 0% 75% / 50%), -8px -8px 20px hsl(0deg 0% 100% / 49%);
+
+/* padding: 1rem; */
+/* justify-content: space-between; */
+}
+.dataCard>img{
+    width: 30%;
+    border-radius:1rem 0 0 1rem;
+    margin-right: 3rem;
+}
+.dataCard .data{
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Outfit", sans-serif;
+}
+.dataCard .data .nameC{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 !important;
+    text-transform: capitalize;
+}
